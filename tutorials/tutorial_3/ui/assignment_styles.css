@@ -1,0 +1,74 @@
+
+#s04-ribbon {
+  background-color: #ff4081;
+}
+
+#s04-main {
+  flex-direction: column;
+  align-items: center;
+}
+
+main img {
+  margin-bottom: 2.5ex;
+}
+
+#like {
+}
+
+#dislike {
+}
+
+#next {
+}
+
+main > div {
+  margin-top: 1ex;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#metadata {
+  font-weight: bold;
+  color: #ff4081;
+}
+
+.wobble {
+  animation-name: wobble;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes wobble {
+    0% {
+        transform:rotate(-20deg);
+    }
+    50% {
+        transform:rotate(40deg);
+    }
+    100% {
+        transform:rotate(-20deg);
+    }
+}
+
+.jump {
+  animation-name: jump;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes jump {
+    0% {
+        transform:translateY(0);
+    }
+    50% {
+        transform:translateY(5px);
+    }
+    100% {
+        transform:translateY(0);
+    }
+}

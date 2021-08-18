@@ -1,0 +1,25 @@
+{
+"test": "Non-Greedy Case", 
+"num_candidates":  4,
+"num_talents": 6,
+"candidate_to_talents":   [
+                            [0, 1],
+                            [2, 3],
+                            [4, 5],
+                            [0, 2, 4]
+                        ],
+"talent_to_candidates":   [
+                            [0, 3],
+                            [0],
+                            [1, 3],
+                            [1],
+                            [2, 3],
+                            [2]
+                        ],
+"matrix":   [
+                [1, 1, 0, 0, 0, 0],
+                [0, 0, 1, 1, 0, 0],
+                [0, 0, 0, 0, 1, 1],
+                [1, 0, 1, 0, 1, 0]
+            ]
+}

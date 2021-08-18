@@ -1,0 +1,20 @@
+{
+"test": "Small, Simple Case", 
+"num_candidates":    3,
+"num_talents":       3,
+"candidate_to_talents":   [
+                            [0],
+                            [1],
+                            [2]
+                        ],
+"talent_to_candidates":   [
+                            [0],
+                            [1],
+                            [2]
+                        ],
+"matrix":   [
+            [1, 0, 0],
+            [0, 1, 0],
+            [0, 0, 1]
+            ]
+}
